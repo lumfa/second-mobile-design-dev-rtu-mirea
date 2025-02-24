@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">second-practice</string>
+    <string name="button_open_second_activity_declaratively">button dec</string>
+    <string name="button_open_second_activity_programmatically">button prog</string>
 </resources>

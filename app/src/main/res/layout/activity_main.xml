@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -16,4 +17,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/fio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="FIO"/>
+
+    <EditText
+        android:id="@+id/group_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="number of group" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="age" />
+
+    <EditText
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="grade" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_prog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_open_second_activity_programmatically" />
+
+        <Button
+            android:id="@+id/button_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onNextActivity"
+            android:text="@string/button_open_second_activity_declaratively" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
