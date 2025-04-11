@@ -10,25 +10,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="fio"
+        android:text="@string/textField_fio"
         android:id="@+id/fioLabel" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="age"
+        android:text="@string/textField_age"
         android:id="@+id/ageLabel" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="group"
+        android:text="@string/textField_group"
         android:id="@+id/groupLabel" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="grade"
+        android:text="@string/textField_grade"
         android:id="@+id/gradeLabel" />
 
 </LinearLayout>

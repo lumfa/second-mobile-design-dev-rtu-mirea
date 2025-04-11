@@ -2,4 +2,8 @@
     <string name="app_name">second-practice</string>
     <string name="button_open_second_activity_declaratively">button dec</string>
     <string name="button_open_second_activity_programmatically">button prog</string>
+    <string name="textField_fio">fio</string>
+    <string name="textField_age">age</string>
+    <string name="textField_group">group</string>
+    <string name="textField_grade">grade</string>
 </resources>
